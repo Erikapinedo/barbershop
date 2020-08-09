@@ -1,0 +1,26 @@
+.paginator {
+	background-color: $platinum;
+
+}
+
+.pagination {
+	margin: 0;
+}
+
+.page-item:last-child .page-link {
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.page-item.disabled .page-link{
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.page-link{
+	color:$erieblack;
+
+
+}

@@ -1,0 +1,21 @@
+body {
+	font-family: $roboto;
+}
+
+a {
+	color:$ruddypink;
+	&:hover {
+		color:$erieblack;
+		text-decoration:none;
+	}
+}
+
+
+li .active a{
+	color:$ruddypink;
+}
+
+
+.rounded-corners {
+	border-radius: $rounded-corners;
+}
